@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Beckslab",
-    "currentPage": "r4all.html",
+    "currentPage": "index.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 68,
     "versionPublish": "4.5.2",
@@ -985,10 +985,10 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#efefef",
+            "bgColor": "#f7da64",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -999,7 +999,7 @@
             "overlayOpacity": 0.2
           },
           "title": "Research Overview",
-          "text": "<p>Research in the lab centres on species interactions in an evolutionary and ecological context. We address fundamental questions about how genetics, physiology, behaviour and life history influence the distribution, interaction among and abundance of organisms.&nbsp;</p><p>-- We work on predator-prey interactions and predator induced phenotypic plasticity using Daphnia pulex morphological defences as a model organism.</p><p>-- We work on algae biotechnology and ecosystem services, focusing on grazer induced defences in algae</p><p>-- We work on food web biology and the theory of complexity and connectance, tying species interactions to foraging biology.<br></p><p>-- We work on parrots, linking their demography to socioeconomic constraints and trade-offs that influence their management as endangered species.</p><p><i>Funding sources include NERC, BBSRC, Microsoft Research, The British Ecological Society, The Royal Society, The EU Marie Curie Programme, The Nuffield Foundation, and The University of Sheffield.</i></p>",
+          "text": "<p>Research in the lab centres on species interactions in an evolutionary and ecological context (Detailed Sections Below). </p><p>We address fundamental questions about how genetics, physiology, behaviour and life history influence interactions among organisms, the structure of their communities and their conservation.&nbsp;</p><p>-- We work on predator-prey interactions and predator induced phenotypic plasticity using Daphnia pulex morphological defences as a model organism.</p><p>-- We work on algae biotechnology, focusing on grazer induced defences in algae</p><p>-- We work on food web biology and the theory of complexity and connectance, tying species interactions to foraging biology.<br></p><p>-- We work on parrots, linking their demography to socioeconomic constraints and trade-offs that influence their management as endangered species.</p><p><i>Funding sources include NERC, BBSRC, Microsoft Research, The British Ecological Society, The Royal Society, The EU Marie Curie Programme, The Nuffield Foundation, and The University of Sheffield.</i></p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_tags": [
             "Theme"
