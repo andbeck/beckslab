@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Beckslab",
-    "currentPage": "publications.html",
+    "currentPage": "index.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 62,
     "versionPublish": "4.5.2",
@@ -578,7 +578,7 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/daphnia86-598x600.png",
+              "src": "@PROJECT_PATH@/assets/images/daphnia86-1-598x600.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
