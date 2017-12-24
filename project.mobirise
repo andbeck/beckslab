@@ -3,7 +3,7 @@
     "name": "Beckslab",
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 68,
+    "uniqCompNum": 69,
     "versionPublish": "4.5.2",
     "theme": {
       "additionalSetColors": []
@@ -717,6 +717,47 @@
               "text-align": "center"
             }
           }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3c3c3c",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/threeconditionjulia-100-248x100.jpg",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "apple",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true
+            }
+          },
+          "text1": "<strong>ADDRESS</strong><br>Department of Animal &amp; Plant Sciences, University of Sheffield, Western Bank, Sheffield S10 2TN, UK",
+          "text2": "Dr. Andrew Beckerman<br>Updated 24.12.27<br>Walking Dandruff Productions",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://twitter.com/search?q=beckerhopper\" target=\"_blank\">TWITTER</a></li></ul>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-1w"
         },
         {
           "_name": "footer1",
