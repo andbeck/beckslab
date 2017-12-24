@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Beckslab",
-    "currentPage": "index.html",
+    "currentPage": "people.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 62,
     "versionPublish": "4.5.2",
@@ -1330,7 +1330,7 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/becks2-1400x1866.png",
+              "src": "@PROJECT_PATH@/assets/images/becks2-1-1400x1866.png",
               "link": "",
               "alt": "",
               "title": ""
