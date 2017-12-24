@@ -1,9 +1,9 @@
 {
   "settings": {
     "name": "Beckslab",
-    "currentPage": "publications.html",
+    "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 69,
+    "uniqCompNum": 72,
     "versionPublish": "4.5.2",
     "theme": {
       "additionalSetColors": []
@@ -29,10 +29,10 @@
             "showMeta": false,
             "showText": true,
             "showButtons": false,
-            "inverse": false,
-            "imageSize": "32",
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "inverse": true,
+            "imageSize": "28",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -68,17 +68,14 @@
               "size": 0
             }
           },
-          "title": "Beckerman Lab<br>Evolutionary Ecology<br>Department of Animal &amp; Plant Sciences<br>University of Sheffield",
-          "text": "<p>We work on the ecology and evolution of phenotypic plasticity, the role of foraging behaviour in the structure and complexity of food webs and parrot conservation. We use Daphnia, Algae, Computers and Parrots in our work. &nbsp;Below you can find links to our research. &nbsp;You can see who we are and more of our publications via links above.</p>",
+          "title": "Beckerman Lab<br>Department of Animal &amp; Plant Sciences, University of Sheffield",
+          "text": "<p>We work on the ecology and evolution of phenotypic plasticity, the role of foraging behaviour in the structure and complexity of food webs and parrot conservation. We use Daphnia, Algae, Computers and Parrots in our work.  Below you can find links to our research.  You can see who we are and more of our publications via links above.</p>",
           "_tags": [
             "Theme"
           ],
           "_styles": {
             ".mbr-header__text": {
-              "color": "#00a885",
-              "text-align": "center",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+              "color": "#ffffff"
             },
             ".mbr-header__subtext": {
               "color": "#ffffff"
@@ -87,11 +84,11 @@
               "color": "#ffffff"
             }
           },
-          "headerAlign": "center",
+          "headerAlign": "left",
           "meta": "By John Smith posted July 30, 2015",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_name": "msg-box4",
-          "_anchor": "msg-box4-j"
+          "_anchor": "msg-box4-1z"
         },
         {
           "_name": "menu1",
@@ -665,7 +662,7 @@
             }
           },
           "title4": "R4All",
-          "caption4": "We work with R. Owen Petchey and Dylan Childs, my colleagues, and I write books and teach courses about using R. R is good.<br>-<br>-<br>-<br>-<br><br>",
+          "caption4": "We work with R. Owen Petchey and Dylan Childs, my colleagues, and I write books and teach courses about using R. R is good.<br>-<br>-<br>-<br><br>",
           "button4": "<a data-app-btn=\"true\" href=\"R4All.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
           "media5": {
             "image": {

@@ -1,12 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-
 @isPublish: true;
 
-#msg-box4-j {
+#msg-box4-1z {
 .mbr-header__text {
-  color: #00a885;
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
 }
 .mbr-header__subtext {
   color: #ffffff;
