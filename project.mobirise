@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Beckslab",
-    "currentPage": "index.html",
+    "currentPage": "research.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 69,
     "versionPublish": "4.5.2",
@@ -37,7 +37,7 @@
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#faaf40",
+            "bgColor": "#f7da64",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1029,7 +1029,7 @@
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#f7da64",
+            "bgColor": "#000000",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
