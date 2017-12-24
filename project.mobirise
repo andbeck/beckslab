@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Beckslab",
-    "currentPage": "index.html",
+    "currentPage": "publications.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 69,
     "versionPublish": "4.5.2",
@@ -1758,7 +1758,7 @@
             "showText": true,
             "showButtons": false,
             "inverse": false,
-            "imageSize": 50,
+            "imageSize": "33",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
