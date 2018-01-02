@@ -1,12 +1,14 @@
 {
   "settings": {
     "name": "Beckslab",
-    "currentPage": "index.html",
+    "currentPage": "research.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 72,
+    "uniqCompNum": 81,
     "versionPublish": "4.5.2",
     "theme": {
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#2c2c2c"
+      ]
     },
     "favicon": "@PROJECT_PATH@/assets/images/chaobjulia-128x125.png",
     "noImageResize": "",
@@ -16,19 +18,72 @@
     "robotsSwitcher": "on",
     "cookiesAlert": "",
     "google-analytics": "",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
         "title": "Home",
-        "meta_descr": "Beckslab HomePate",
+        "meta_descr": "Beckslab HomePage",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
       },
       "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PUBLICATIONS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/chaobjulia-130x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-25"
+        },
         {
           "_inherit": "msg-box5",
           "_params": {
@@ -37,14 +92,14 @@
             "showText": true,
             "showButtons": false,
             "inverse": true,
-            "imageSize": "28",
+            "imageSize": "30",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#f7da64",
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -501,58 +556,6 @@
           "_anchor": "menu1-e"
         },
         {
-          "_inherit": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": false,
-            "showButtons": false,
-            "sticky": true,
-            "collapsed": false,
-            "transparent": false,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
-          },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            }
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PUBLICATIONS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\">R4All<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/chaobjulia-130x128.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-h"
-        },
-        {
           "_params": {
             "showHeader": false,
             "showSubheader": false,
@@ -860,7 +863,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Research in The Lab",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -875,7 +878,7 @@
             "color": "#2c2c2c",
             "hamburgerColor": "#ffffff"
           },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -890,10 +893,10 @@
               "background": "#2c2c2c"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#2c82c9"
+              "color": "#ffffff"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PUBLICATIONS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\">R4All<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PUBLICATIONS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -901,7 +904,7 @@
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
-              "link": "index.html",
+              "link": "https://mobirise.com",
               "title": "",
               "linkInNewWindow": false
             },
@@ -911,7 +914,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-k"
         },
@@ -1033,7 +1036,7 @@
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#000000",
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1200,7 +1203,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "People In the Lab",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -1215,7 +1218,7 @@
             "color": "#2c2c2c",
             "hamburgerColor": "#ffffff"
           },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1230,10 +1233,10 @@
               "background": "#2c2c2c"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#2c82c9"
+              "color": "#ffffff"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PUBLICATIONS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\">R4All<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PUBLICATIONS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1241,7 +1244,7 @@
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
-              "link": "index.html",
+              "link": "https://mobirise.com",
               "title": "",
               "linkInNewWindow": false
             },
@@ -1251,7 +1254,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-m"
         },
@@ -1356,7 +1359,7 @@
             "inverse": false,
             "imageSize": "10",
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -1460,12 +1463,12 @@
               "name": "user2",
               "family": "MobiriseIcons",
               "link": "",
-              "size": 0,
+              "size": "100",
               "active": true
             }
           },
           "title1": "Post Docs",
-          "caption1": "Dr. Isobel Eyres (PDRA with Butlin, Beckerman and Snook Rotifer Evolution Project)<br>",
+          "caption1": ":: Dr. Isobel Eyres (PDRA with Butlin, Beckerman and Snook Rotifer Evolution Project)<br>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media2": {
             "image": {
@@ -1483,7 +1486,7 @@
               "name": "user2",
               "family": "MobiriseIcons",
               "link": "",
-              "size": 0,
+              "size": "100",
               "active": true
             }
           },
@@ -1506,12 +1509,12 @@
               "name": "user2",
               "family": "MobiriseIcons",
               "link": "",
-              "size": 0,
+              "size": "100",
               "active": true
             }
           },
           "title3": "Masters",
-          "caption3": "Miss Hebe Carmichael (Thermal Performance in Daphnia)<br><br>Miss Eleanor Martell (Parrot Conservation Modelling)",
+          "caption3": ":: Miss Hebe Carmichael (Thermal Performance in Daphnia)<br><br>:: Miss Eleanor Martell (Parrot Conservation Modelling)",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media4": {
             "image": {
@@ -1529,7 +1532,7 @@
               "name": "link",
               "family": "MobiriseIcons",
               "link": "",
-              "size": 0,
+              "size": "100",
               "active": true
             }
           },
@@ -1595,7 +1598,7 @@
           "_anchor": "header3-1n"
         },
         {
-          "text": "<div><br></div><div>PhD</div><div>:: David Russo (PhD 2013-2016) [-&gt; Post Doc, Copenhagen]</div><div>:: Dr. Mohammad Ali (PhD 2010-2014) [-&gt; Kuwait Institute for Scientific Research]</div><div>:: Dr. Tim Farkas (PhD 2013-2015) [-&gt; PDRA at UCONN with Mark Urban]</div><div>:: Dr. Kylie Yarlett (PhD 2009 - 2013) [-&gt; Trainee Teacher]</div><div>:: Dr. Julia Reger (PhD 2008 - 2011) [-&gt; Greenpeace and Consultant Activist]</div><div>:: Dr. Aaron Theirry (PhD 2008 - 2012) [-&gt; Post-Doc, University of Edinburgh -&gt; Climate Change Modelling -&gt; Campaigns Manager TUoS Students Union)</div><div>:: Dr. Sam Williams (PhD 2006-2010) [-&gt; Echo Bonaire, Conservation NGO -&gt; Ara Project Cost Rica -&gt; WPT Caribbean Leader]</div><div>:: Dr. Rowan Marthin (PhD 2006-2010) [-&gt; Post Doc - Percy Fitzpatrick Institute, South Africa -&gt; WPT Africa Leader]</div><div>:: Dr. Edd Hammill (PhD 2003-2007) [-&gt; Post Doc - Anholt Lab - UVic -&gt; Srivastava lab UBC -&gt; Assistant Prof Utah State]&nbsp;</div><div><br></div><div>Post Doc</div><div>:: Dr. Dörthe Becker (Post Doc 2014-2016) [-&gt; Post Doc, UVa Bergland Lab, USA]</div><div>:: Dr. Martin Lind (Post-doc 2010-2012) [-&gt; Junior Group Leader, Uppsala University, Sweden]</div><div>:: Dr. Mauricio Carter (Post-doc 2009 - 2011) [-&gt; Post Doc Exeter - &gt; Assistant Prof, Univ. Chile]</div><div>:: Dr. Dirk Mikolajewski (Post-doc 2007-2011) [-&gt; Berlin - post doc]</div><div>:: Dr. Stuart Dennis (Post-doc 2007-2011) [-&gt; Panama; STRI -&gt; Post Doc - EAWAG]</div><div><br></div><div>Visiting PhD</div><div>:: Dr. Pablo Cortes, Universidad Austral, Chile (Visiting PhD; PDRA in Rimuski, CA).</div><div>:: Mauricio Carter (2008) Visiting PhD Fellow - Genetic Covariance in Daphnia - Univesity of Chile, Santiago</div><div><br></div><div>MBioSci/Technicians</div><div>:: Jason Griffiths (MBiolSci 2012) [Sheffield - PhD -&gt; Post Doc Utah State]</div><div>:: Farah al-Shorbaji (MBiolSci 2012) [Bournmouth - PhD -&gt; World Health Organisation]</div><div>:: Ben Ashton (MBiolSci 2011) [Destination: Kalahari]</div><div>:: Julie Truman (MBiolSci 2010) [Destination: Liverpool - PhD]</div><div>:: Will Hentley (Technician 2009-2010) [Destination: CEH Banchory - PhD-&gt;Post Doc - Sheffield]</div><div>:: Meghann Mears (UG 2004-2007) [Destination: Sheffield PhD]</div><div>:: Dr. Gwen Rodgers (MBiolSci 2006-2007) [Desitination: Leeds PhD; Leeds Post-doc]</div><div>:: Dr. Alice Rogers (Tech 2005-2006) [Destination: Imperial College London PhD -&gt; Brisbane, Australia - Post-doc -&gt; Lecturer, Wellington, NZ!]</div><div>:: Mike Morel (MBiolSci 2005-2006) [Cambridge Science Labs]</div><div>:: Aimee McTighe (Nuffield Bursary Student 2007) [4th Year MBiolSci, Sheffield]</div>",
+          "text": "<div><br></div><div>PhD</div><div>:: David Russo (PhD 2013-2016) [-&gt; Post Doc, Copenhagen]</div><div>:: Dr. Mohammad Ali (PhD 2010-2014) [-&gt; Kuwait Institute for Scientific Research]</div><div>:: Dr. Tim Farkas (PhD 2013-2015) [-&gt; PDRA at UCONN with Mark Urban]</div><div>:: Dr. Kylie Yarlett (PhD 2009 - 2013) [-&gt; Trainee Teacher]</div><div>:: Dr. Julia Reger (PhD 2008 - 2011) [-&gt; Greenpeace and Consultant Activist]</div><div>:: Dr. Aaron Theirry (PhD 2008 - 2012) [-&gt; Post-Doc, University of Edinburgh -&gt; Climate Change Modelling -&gt; Campaigns Manager TUoS Students Union)</div><div>:: Dr. Sam Williams (PhD 2006-2010) [-&gt; Echo Bonaire, Conservation NGO -&gt; Ara Project Cost Rica -&gt; WPT Caribbean/Central America Leader]</div><div>:: Dr. Rowan Marthin (PhD 2006-2010) [-&gt; Post Doc - Percy Fitzpatrick Institute, South Africa -&gt; WPT Africa Leader]</div><div>:: Dr. Edd Hammill (PhD 2003-2007) [-&gt; Post Doc - Anholt Lab - UVic -&gt; Srivastava lab UBC -&gt; Assistant Prof Utah State]&nbsp;</div><div><br></div><div>Post Doc</div><div>:: Dr. Dörthe Becker (Post Doc 2014-2016) [-&gt; Post Doc, UVa Bergland Lab, USA]</div><div>:: Dr. Martin Lind (Post-doc 2010-2012) [-&gt; Junior Group Leader, Uppsala University, Sweden]</div><div>:: Dr. Mauricio Carter (Post-doc 2009 - 2011) [-&gt; Post Doc Exeter - &gt; Assistant Prof, Univ. Chile]</div><div>:: Dr. Dirk Mikolajewski (Post-doc 2007-2011) [-&gt; Berlin - post doc]</div><div>:: Dr. Stuart Dennis (Post-doc 2007-2011) [-&gt; Panama; STRI -&gt; Post Doc - EAWAG]</div><div><br></div><div>Visiting PhD</div><div>:: Dr. Pablo Cortes, Universidad Austral, Chile (Visiting PhD; PDRA in Rimuski, CA).</div><div>:: Mauricio Carter (2008) Visiting PhD Fellow - Genetic Covariance in Daphnia - Univesity of Chile, Santiago</div><div><br></div><div>MBioSci/Technicians</div><div>:: Jason Griffiths (MBiolSci 2012) [Sheffield - PhD -&gt; Post Doc Utah State]</div><div>:: Farah al-Shorbaji (MBiolSci 2012) [Bournmouth - PhD -&gt; World Health Organisation]</div><div>:: Ben Ashton (MBiolSci 2011) [Destination: Kalahari]</div><div>:: Julie Truman (MBiolSci 2010) [Destination: Liverpool - PhD]</div><div>:: Will Hentley (Technician 2009-2010) [Destination: CEH Banchory - PhD-&gt;Post Doc - Sheffield]</div><div>:: Meghann Mears (UG 2004-2007) [Destination: Sheffield PhD]</div><div>:: Dr. Gwen Rodgers (MBiolSci 2006-2007) [Desitination: Leeds PhD; Leeds Post-doc]</div><div>:: Dr. Alice Rogers (Tech 2005-2006) [Destination: Imperial College London PhD -&gt; Brisbane, Australia - Post-doc -&gt; Lecturer, Wellington, NZ!]</div><div>:: Mike Morel (MBiolSci 2005-2006) [Cambridge Science Labs]</div><div>:: Aimee McTighe (Nuffield Bursary Student 2007) [4th Year MBiolSci, Sheffield]</div>",
           "_tags": [
             "Theme"
           ],
@@ -1608,7 +1611,7 @@
       "settings": {
         "meta_descr": "Web Generator Description",
         "title": "Publications from The Lab",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -1623,7 +1626,7 @@
             "color": "#2c2c2c",
             "hamburgerColor": "#ffffff"
           },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1638,10 +1641,10 @@
               "background": "#2c2c2c"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#2c82c9"
+              "color": "#ffffff"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PUBLICATIONS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\">R4All<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PUBLICATIONS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1649,7 +1652,7 @@
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
-              "link": "index.html",
+              "link": "https://mobirise.com",
               "title": "",
               "linkInNewWindow": false
             },
@@ -1659,7 +1662,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-o"
         },
@@ -1769,7 +1772,7 @@
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#7ac673",
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1836,7 +1839,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "CONTACT",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -1851,7 +1854,7 @@
             "color": "#2c2c2c",
             "hamburgerColor": "#ffffff"
           },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1866,10 +1869,10 @@
               "background": "#2c2c2c"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#2c82c9"
+              "color": "#ffffff"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PUBLICATIONS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\">R4All<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PUBLICATIONS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1877,7 +1880,7 @@
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
-              "link": "index.html",
+              "link": "https://mobirise.com",
               "title": "",
               "linkInNewWindow": false
             },
@@ -1887,7 +1890,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-1q"
         },
@@ -2029,7 +2032,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "R4All",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -2044,7 +2047,7 @@
             "color": "#2c2c2c",
             "hamburgerColor": "#ffffff"
           },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -2059,10 +2062,10 @@
               "background": "#2c2c2c"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#2c82c9"
+              "color": "#ffffff"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PUBLICATIONS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\">R4All<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PUBLICATIONS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -2070,7 +2073,7 @@
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
-              "link": "index.html",
+              "link": "https://mobirise.com",
               "title": "",
               "linkInNewWindow": false
             },
@@ -2080,7 +2083,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-1t"
         },
@@ -2182,8 +2185,8 @@
             "showMeta": false,
             "showText": true,
             "showButtons": true,
-            "inverse": false,
-            "imageSize": "18",
+            "inverse": true,
+            "imageSize": "16",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
