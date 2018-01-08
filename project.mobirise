@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Beckslab",
-    "currentPage": "research.html",
+    "currentPage": "people.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 81,
     "versionPublish": "4.5.2",
@@ -1378,7 +1378,7 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/becks2-450x600.png",
+              "src": "@PROJECT_PATH@/assets/images/aaeaaqaaaaaaaatraaaajdnknzrjnwnmltm0owqtndfmos04zje5lwrjmjkynzyxmtvmyg-312x312.jpg",
               "link": "",
               "alt": "",
               "title": ""
