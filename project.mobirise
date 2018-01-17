@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Beckslab",
-    "currentPage": "people.html",
+    "currentPage": "publications.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 81,
     "versionPublish": "4.5.2",
@@ -43,7 +43,7 @@
             "collapsed": false,
             "transparent": false,
             "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
+            "hamburgerColor": "#efefef"
           },
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "_tags": [
@@ -60,7 +60,7 @@
               "background": "#2c2c2c"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#efefef"
             }
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PUBLICATIONS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
@@ -758,7 +758,7 @@
             }
           },
           "text1": "<strong>ADDRESS</strong><br>Dr. Andrew Beckerman<br>Department of Animal &amp; Plant Sciences, University of Sheffield, Western Bank, Sheffield S10 2TN, UK",
-          "text2": "DISCOGRAPHY<br>Updated 24.12.27<br>A Deviation from Walking Dandruff Productions",
+          "text2": "DISCOGRAPHY<br>Updated 24.12.27<br>A Deviation from Walking Dandruff Productions<br><img src=\"http://counter.digits.net/wc/-d/4/beckslab\" align=\"middle\" width=\"40\" height=\"10\" border=\"0\" hspace=\"4\" vspace=\"2\"><br><font size=\"1\"><i>Counter Courtesy of <a href=\"http://www.digits.net\">Web Counters</a></i></font><br>",
           "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://twitter.com/search?q=beckerhopper\" target=\"_blank\">TWITTER</a></li></ul>",
           "_tags": [
             "Theme"
@@ -876,7 +876,7 @@
             "collapsed": false,
             "transparent": false,
             "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
+            "hamburgerColor": "#efefef"
           },
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "_tags": [
@@ -1216,7 +1216,7 @@
             "collapsed": false,
             "transparent": false,
             "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
+            "hamburgerColor": "#efefef"
           },
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "_tags": [
@@ -1624,7 +1624,7 @@
             "collapsed": false,
             "transparent": false,
             "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
+            "hamburgerColor": "#efefef"
           },
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "_tags": [
@@ -1641,7 +1641,7 @@
               "background": "#2c2c2c"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#efefef"
             }
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PUBLICATIONS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
@@ -1852,7 +1852,7 @@
             "collapsed": false,
             "transparent": false,
             "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
+            "hamburgerColor": "#efefef"
           },
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "_tags": [
@@ -2045,7 +2045,7 @@
             "collapsed": false,
             "transparent": false,
             "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
+            "hamburgerColor": "#efefef"
           },
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "_tags": [
