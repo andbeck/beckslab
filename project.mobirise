@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Beckslab",
-    "currentPage": "research.html",
+    "currentPage": "andbeck_git.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 86,
     "versionPublish": "4.5.2",
@@ -2062,7 +2062,7 @@
               "background": "#2c2c2c"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#efefef"
             }
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PAPERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page6.html\">GITHUB</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
@@ -2248,7 +2248,7 @@
         }
       ]
     },
-    "page6.html": {
+    "andbeck_git.html": {
       "settings": {
         "meta_descr": "Web Page Generator Description",
         "title": "GitHub",
