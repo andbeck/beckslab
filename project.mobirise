@@ -1,13 +1,14 @@
 {
   "settings": {
     "name": "Beckslab",
-    "currentPage": "andbeck_git.html",
+    "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 86,
-    "versionPublish": "4.5.2",
+    "uniqCompNum": 95,
+    "versionPublish": "4.8.1",
     "theme": {
       "additionalSetColors": [
-        "#2c2c2c"
+        "#2c2c2c",
+        "#e6cccc"
       ]
     },
     "favicon": "@PROJECT_PATH@/assets/images/chaobjulia-128x125.png",
@@ -20,7 +21,8 @@
     "google-analytics": "",
     "sitemapSwitcher": "on",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "siteFonts": []
   },
   "pages": {
     "index.html": {
@@ -33,57 +35,6 @@
         "html_before": ""
       },
       "components": [
-        {
-          "_inherit": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": false,
-            "showButtons": false,
-            "sticky": true,
-            "collapsed": false,
-            "transparent": false,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#efefef"
-          },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__hamburger": {
-              "color": "#efefef"
-            }
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PAPERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page6.html\">GITHUB</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/chaobjulia-130x128.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-25"
-        },
         {
           "_inherit": "msg-box5",
           "_params": {
@@ -131,7 +82,7 @@
             }
           },
           "title": "Beckerman Lab<br>Department of Animal &amp; Plant Sciences, University of Sheffield",
-          "text": "<p>We work on the ecology and evolution of phenotypic plasticity, the role of foraging behaviour in the structure and complexity of food webs and parrot conservation. We use Daphnia, Algae, Computers and Parrots in our work.  Below you can find links to our research.  You can see who we are and more of our publications via links above.</p>",
+          "text": "<p>We work on the ecology and evolution of phenotypic plasticity, the role of foraging behaviour in the structure and complexity of food webs and parrot conservation. We use Daphnia, Algae, Computers and Parrots in our work.  Below you can find links to our research.&nbsp;</p><p><a href=\"https://scholar.google.com/citations?user=I741OU4AAAAJ&amp;hl=en\" target=\"_blank\">GOOGLE SCHOLAR LINK</a></p>",
           "_tags": [
             "Theme"
           ],
@@ -672,7 +623,7 @@
             }
           },
           "title4": "R4All",
-          "caption4": "We work with R. Owen Petchey and Dylan Childs, my colleagues, and I write books and teach courses about using R. R is good.<br>-<br>-<br>-<br><br>",
+          "caption4": "We work with R. Owen Petchey and Dylan Childs, my colleagues, and I write books and teach courses about using R. R is good.<br>-<br>-<br>-<br>-<br>",
           "button4": "<a data-app-btn=\"true\" href=\"R4All.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
           "media5": {
             "image": {
@@ -727,6 +678,31 @@
         },
         {
           "_params": {
+            "showMeta": false
+          },
+          "title": "<u>News From The Lab</u>",
+          "meta": "By John Smith posted July 30, 2015",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2f"
+        },
+        {
+          "text": "<p>• NERC grant received: &nbsp;\"Towards a general theory of ecological impacts of multiple, simultaneous stressors. (Food Webs!).</p><p>• Ecology (ESA) paper accepted by Tom Clegg (MBiolSci) and Mohammad Ali (PhD): \"The Impact of Intraspecific Variation on Food Web Structure\"</p><p>• Long awaited synthetic paper out in <a href=\"https://www.nature.com/articles/s41559-017-0373-6\" target=\"_blank\">Nature Ecology and Evolution: Predation drives local adaptation of phenotypic plasticity</a> with perspective at <a href=\"https://natureecoevocommunity.nature.com/users/24831-andrew-beckerman/posts/28994-can-we-detect-local-adaptation-of-phenotypic-plasticity\" target=\"_blank\">Nature EE Community</a></p><p>•PhD Student Erika Hansson receives £5000 award for metabolomics work on the evolution of herbicide resistance in algae.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2g",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
@@ -758,7 +734,7 @@
             }
           },
           "text1": "<strong>ADDRESS</strong><br>Dr. Andrew Beckerman<br>Department of Animal &amp; Plant Sciences, University of Sheffield, Western Bank, Sheffield S10 2TN, UK",
-          "text2": "DISCOGRAPHY<br>Updated 24.12.27<br>A Deviation from Walking Dandruff Productions<br><img src=\"http://counter.digits.net/wc/-d/4/beckslab\" align=\"middle\" width=\"40\" height=\"10\" border=\"0\" hspace=\"4\" vspace=\"2\"><br><font size=\"1\"><i>Counter Courtesy of <a href=\"http://www.digits.net\">Web Counters</a></i></font><br>",
+          "text2": "DISCOGRAPHY<br>Updated 14.7.18<br>A Deviation from Walking Dandruff Productions<br><img src=\"http://counter.digits.net/wc/-d/4/beckslab\" align=\"middle\" width=\"40\" height=\"10\" border=\"0\" hspace=\"4\" vspace=\"2\"><br><font size=\"1\"><i>Counter Courtesy of <a href=\"http://www.digits.net\">Web Counters</a></i></font><br>",
           "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://twitter.com/search?q=beckerhopper\" target=\"_blank\">TWITTER</a></li></ul>",
           "_tags": [
             "Theme"
@@ -856,6 +832,57 @@
             "overlayOpacity": 0.8
           },
           "_anchor": "footer1-g"
+        },
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#c1c1c1",
+            "hamburgerColor": "#ffffff"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#c1c1c1"
+            },
+            ".mbr-navbar__section": {
+              "background": "#c1c1c1"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page6.html\">GITHUB</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/chaobjulia-130x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-29"
         }
       ]
     },
@@ -863,7 +890,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Research in The Lab",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -875,8 +902,8 @@
             "sticky": true,
             "collapsed": false,
             "transparent": false,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#efefef"
+            "color": "#c1c1c1",
+            "hamburgerColor": "#ffffff"
           },
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "_tags": [
@@ -896,7 +923,7 @@
               "color": "#efefef"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PAPERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page6.html\">GITHUB</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page6.html\">GITHUB</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1047,7 +1074,7 @@
             "overlayOpacity": 0.2
           },
           "title": "Research Overview",
-          "text": "<p>Research in the lab centres on species interactions in an evolutionary and ecological context (Detailed Sections Below). </p><p>We address fundamental questions about how genetics, physiology, behaviour and life history influence interactions among organisms, the structure of their communities and their conservation.&nbsp;</p><p>-- We work on predator-prey interactions and predator induced phenotypic plasticity using Daphnia pulex morphological defences as a model organism.</p><p>-- We work on algae biotechnology, focusing on grazer induced defences in algae</p><p>-- We work on food web biology and the theory of complexity and connectance, tying species interactions to foraging biology.<br></p><p>-- We work on parrots, linking their demography to socioeconomic constraints and trade-offs that influence their management as endangered species.</p><p><i>Funding sources include NERC, BBSRC, Microsoft Research, The British Ecological Society, The Royal Society, The EU Marie Curie Programme, The Nuffield Foundation, and The University of Sheffield.</i></p>",
+          "text": "<p>Research in the lab centres on species interactions in an evolutionary and ecological context (Detailed Sections Below). </p><p>We address fundamental questions about how genetics, physiology, behaviour and life history influence interactions among organisms, the structure of their communities and their conservation.&nbsp;</p><p>-- We work on food web biology and the theory of complexity and connectance. We connect foraging biology and species interactions to the complexity, structure and function of ecological communities.</p><p>-- We work on predator-prey interactions and predator induced phenotypic plasticity. &nbsp;We use&nbsp;<i>Daphnia pulex, </i>several rotifer species and several algae species and their&nbsp;morphological defences as a model organism.</p><p>-- We work on algae biotechnology, focusing on grazer induced defences and flocculation in algae</p><p>-- We work on parrots, linking their demography to socioeconomic constraints and trade-offs that influence their management as endangered species.<br></p><p><i>Funding sources include NERC, BBSRC, Microsoft Research, The British Ecological Society, The Royal Society, The EU Marie Curie Programme, The Nuffield Foundation, and The University of Sheffield. &nbsp;We work with the World Parrot Trust and the Ara Project too.</i></p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_tags": [
             "Theme"
@@ -1094,7 +1121,7 @@
             "overlayOpacity": 0.2
           },
           "title": "Ecology, Evolution &amp; Phenotypic Plasticity",
-          "text": "<p>We examine the genetic, genomic and endocrine basis of predator induced phenotypic plasticity. &nbsp;We work with water fleas (daphnia) in predator induced defences. &nbsp;This work extends from genetics and cell biology through physiology and hormones to ecology and evolution of traits. &nbsp;We pioneer work on analysing the ecology and evolution of multivariate phenotypic plasticity.</p><p>We also work with algae defences. &nbsp;Water fleas induced aggregation responses in algae. &nbsp;The bio-engineering world calls this flocculation, which is an important part of harvesting algae. &nbsp;We work on a sustainable, ecology inspired solutions to engineering problems, including mitigation of eutrophication and production of low and high value algae based products.&nbsp;</p><p><b>Key Daphnia Papers</b></p><p><i>Reger, J. Lind, MI, Robinson*, M. Beckerman*, AP 2017 Predation drives local adaptation of phenotypic plasticity Nature Ecology and Evolution (in press) [*equal contribution]</i></p><p><i>Carter, MJ, Lind, MI, Hentley, W. Dennis, SR, Beckerman, AP 2017 Evolution of a predator-induced, non-linear reaction norm Proceedings of the Royal Society 284 20170859 DOI:&nbsp;10.1098/rspb.2017.0859</i></p><p><i>Lind, M. I., K. Yarlett, J. Reger, M. J. Carter, and A. P. Beckerman. 2015. The alignment between phenotypic plasticity, the major axis of genetic variation and the response to selection. Proceedings of the Royal Society 282: 20151651. http://dx.doi.org/10.1098/rspb.2015.1651</i></p><p><i>Robinson, M. R., and A. P. Beckerman. 2013. Quantifying multivariate plasticity: genetic variation in resource acquisition drives plasticity in resource allocation to components of life history. Ecology Letters:281-290.</i></p><p><i>Dennis, S. D., G. A. LeBlanc, and A. P. Beckerman. 2014. Endocrine regulation of predator-induced phenotypic plasticity. Oecologia 176:625–635.</i></p><p><b>Key Algae Papers</b></p><p><i>Russo, D., Beckerman, A.P., Pandhal. J. 2017 Competitive growth experiments with a high-lipid Chlamydomonas reinhardtii mutant strain and its wild-type to predict industrial and ecological risks. AMB Express (Applied and Industrial Biotechnology) 7:10 DOI: 10.1186/s13568-016-0305-x</i></p><p><i>Roccuzzo, S., Beckerman, A.P. and Pandhal, J. 2016. The use of natural infochemicals for sustainable and efficient harvesting of microalgae for biotechnology: insights from a meta-analysis. Biotechnology Letters 38(12): 1983–1990 doi:&nbsp; 10.1007/s10529-016-2192-2</i></p><p><i>Russo, D. Beckerman, AP, Couto, N., Pandhal,J.  2016. A metaproteomic analysis of the response of a freshwater microbial community under nutrient enrichment. Frontiers in Microbiology 7 1172 (doi:&nbsp; 10.3389/fmicb.2016.01172)</i></p>",
+          "text": "<p>We examine the genetic, genomic and endocrine basis of predator induced phenotypic plasticity. &nbsp;We work with water fleas (daphnia) in predator induced defences. &nbsp;This work extends from genetics and cell biology through physiology and hormones to ecology and evolution of traits. &nbsp;We pioneer work on analysing the ecology and evolution of multivariate phenotypic plasticity.</p><p>We also work with algae defences. &nbsp;Water fleas induced aggregation responses in algae. &nbsp;The bio-engineering world calls this flocculation, which is an important part of harvesting algae. &nbsp;We work on a sustainable, ecology inspired solutions to engineering problems, including mitigation of eutrophication and production of low and high value algae based products.&nbsp;</p><p><b>Key Daphnia Papers</b></p><p><i>Reger, J. Lind, MI, Robinson*, M. Beckerman*, AP 2018 Predation drives local adaptation of phenotypic plasticity Nature Ecology &amp; Evolutionvolume 2, 100–107 [*equal contribution] https://doi.org/10.1038/s41559-017-0373-6</i></p><p><i>Carter, MJ, Lind, MI, Hentley, W. Dennis, SR, Beckerman, AP 2017 Evolution of a predator-induced, non-linear reaction norm Proceedings of the Royal Society 284 20170859 DOI:&nbsp;10.1098/rspb.2017.0859</i></p><p><i>Lind, M. I., K. Yarlett, J. Reger, M. J. Carter, and A. P. Beckerman. 2015. The alignment between phenotypic plasticity, the major axis of genetic variation and the response to selection. Proceedings of the Royal Society 282: 20151651. http://dx.doi.org/10.1098/rspb.2015.1651</i></p><p><i>Robinson, M. R., and A. P. Beckerman. 2013. Quantifying multivariate plasticity: genetic variation in resource acquisition drives plasticity in resource allocation to components of life history. Ecology Letters:281-290.</i></p><p><i>Dennis, S. D., G. A. LeBlanc, and A. P. Beckerman. 2014. Endocrine regulation of predator-induced phenotypic plasticity. Oecologia 176:625–635.</i></p><p><b>Key Algae Papers</b></p><p><i>Russo, D., Beckerman, A.P., Pandhal. J. 2017 Competitive growth experiments with a high-lipid Chlamydomonas reinhardtii mutant strain and its wild-type to predict industrial and ecological risks. AMB Express (Applied and Industrial Biotechnology) 7:10 DOI: 10.1186/s13568-016-0305-x</i></p><p><i>Roccuzzo, S., Beckerman, A.P. and Pandhal, J. 2016. The use of natural infochemicals for sustainable and efficient harvesting of microalgae for biotechnology: insights from a meta-analysis. Biotechnology Letters 38(12): 1983–1990 doi:&nbsp; 10.1007/s10529-016-2192-2</i></p><p><i>Russo, D. Beckerman, AP, Couto, N., Pandhal,J.  2016. A metaproteomic analysis of the response of a freshwater microbial community under nutrient enrichment. Frontiers in Microbiology 7 1172 (doi:&nbsp; 10.3389/fmicb.2016.01172)</i></p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_tags": [
             "Theme"
@@ -1141,7 +1168,7 @@
             "overlayOpacity": 0.2
           },
           "title": "Food Webs",
-          "text": "<p>In collaboration with Phil Warren at Sheffield and Owen Petchey in Zurich and Tim Poisot at Montreal, we explore the role that optimal foraging theory can play in predicting pattern and process in food webs.&nbsp;</p><p>-- What determines connectance (the number of interactions) and structure of a food web?</p><p>-- How does optimal foraging predict the dynamic consequences of species invasions and extinctions in a food web.</p><p>-- How does optimal foraging increase the robustness of food webs to extinction</p><p><b>Key Food Web Papers</b></p><p><i>Thierry, A., O. L. Petchey, A. P. Beckerman, P. H. Warren, and R. J. Williams. (2011). The consequences of size dependent foraging for food web topology. Oikos 120:493-502.</i></p><p><i>Thierry, A., A. P. Beckerman, P. H. Warren, R. J. Williams, A. J. Cole, and O. L. Petchey. (2011). Adaptive foraging and the rewiring of size-structured food webs following extinctions. Basic and Applied Ecology 12:562-570.</i></p><p><i>Petchey, O. L., A. P. Beckerman, J. O. Riede, and P. H. Warren. (2008). Size, foraging, and food web structure. Proceedings of the National Academy of Sciences 105:4191-4196.<br></i></p><p><i>Beckerman, A. P., O. L. Petchey, and P. J. Morin. (2010). Adaptive foragers and community ecology: linking individuals to communities and ecosystems. Functional Ecology 24:1-6.</i></p><p><i>Beckerman, A. P., O. L. Petchey, and P. H. Warren. (2006). Foraging biology predicts food web complexity. Proceedings of the National Academy of Sciences of the United States of America 103:13745-13749.</i></p>",
+          "text": "<p>In collaboration with Phil Warren at Sheffield and Owen Petchey in Zurich and Tim Poisot at Montreal, we explore the role that optimal foraging theory can play in predicting pattern and process in food webs.&nbsp;</p><p>-- What determines connectance (the number of interactions) and structure of a food web?</p><p>-- How does optimal foraging predict the dynamic consequences of species invasions and extinctions in a food web.</p><p>-- How does optimal foraging increase the robustness of food webs to extinction</p><p><b>Key Food Web Papers</b></p><p><i>Clegg, T., Ali, M. and Beckerman, A.P. 2018 The impact of intraspecific variation on food web structure. &nbsp;Ecology (in review)</i></p><p><i>Thierry, A., O. L. Petchey, A. P. Beckerman, P. H. Warren, and R. J. Williams. (2011). The consequences of size dependent foraging for food web topology. Oikos 120:493-502.</i></p><p><i>Thierry, A., A. P. Beckerman, P. H. Warren, R. J. Williams, A. J. Cole, and O. L. Petchey. (2011). Adaptive foraging and the rewiring of size-structured food webs following extinctions. Basic and Applied Ecology 12:562-570.</i></p><p><i>Petchey, O. L., A. P. Beckerman, J. O. Riede, and P. H. Warren. (2008). Size, foraging, and food web structure. Proceedings of the National Academy of Sciences 105:4191-4196.<br></i></p><p><i>Beckerman, A. P., O. L. Petchey, and P. J. Morin. (2010). Adaptive foragers and community ecology: linking individuals to communities and ecosystems. Functional Ecology 24:1-6.</i></p><p><i>Beckerman, A. P., O. L. Petchey, and P. H. Warren. (2006). Foraging biology predicts food web complexity. Proceedings of the National Academy of Sciences of the United States of America 103:13745-13749.</i></p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_tags": [
             "Theme"
@@ -1203,7 +1230,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "People In the Lab",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -1215,8 +1242,8 @@
             "sticky": true,
             "collapsed": false,
             "transparent": false,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#efefef"
+            "color": "#c1c1c1",
+            "hamburgerColor": "#ffffff"
           },
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "_tags": [
@@ -1227,16 +1254,16 @@
               "font-size": "16px"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
+              "background": "#c1c1c1"
             },
             ".mbr-navbar__section": {
-              "background": "#2c2c2c"
+              "background": "#c1c1c1"
             },
             ".mbr-navbar__hamburger": {
               "color": "#ffffff"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PAPERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page6.html\">GITHUB</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page6.html\">GITHUB</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1378,7 +1405,7 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/aaeaaqaaaaaaaatraaaajdnknzrjnwnmltm0owqtndfmos04zje5lwrjmjkynzyxmtvmyg-312x312.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-808-960x1280.png",
               "link": "",
               "alt": "",
               "title": ""
@@ -1491,7 +1518,7 @@
             }
           },
           "title2": "PhD",
-          "caption2": ":: Nella Roccuzzo (2014 - 2017; Algae Biofuels and Ecology; co-supervised by Jags Pandhal, CBE)<br><br>:: Nada Badruddin (2014-2017; Malaysia FRIM: Firefly Conservation Biology:co-supervised by Karl Evans and Mike Siva-Jothy)<br><br>:: Shlair Sadiq (2014-2018 Iraq; Copper and Cadmium - developing a multi-stressor model of action in Daphnia<br><br>:: Tamora James (2015 - 2018; ACCE Sheffield/NERC/CASE - World Parrot Trust; with Dylan Childs and Ben Hatchwell)<br><br>:: Erika Hansson (2016 - 2019; Trade-offs between resistance and defence; co-supervised by Dylan Childs)<br>",
+          "caption2": ":: Nada Badruddin (2014-2017; Malaysia FRIM: Firefly Conservation Biology:co-supervised by Karl Evans and Mike Siva-Jothy)<br><br>:: Shlair Sadiq (2014-2018 Iraq; Copper and Cadmium - developing a multi-stressor model of action in Daphnia<br><br>:: Tamora James (2015 - 2018; ACCE Sheffield/NERC/CASE - World Parrot Trust; with Dylan Childs and Ben Hatchwell)<br><br>:: Erika Hansson (2016 - 2019; Trade-offs between resistance and defence; co-supervised by Dylan Childs)<br><br>:: Nathan White (2018 - 2022; Speciation in rotifers; co-supervised with Roger Butlin)",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media3": {
             "image": {
@@ -1537,7 +1564,7 @@
             }
           },
           "title4": "Collaborators",
-          "caption4": "Daphnia - Genomics, Genetics and Life History Evolution<br>-- Tom Little (Edinburgh)<br>-- Alan Bergland (University of Virginia)<br>-- Matt Robinson (University of Lausanne)<br>-- Prof John Colbourne and The Daphnia Genomics Consortium<br><br>Food Webs and Foraging Theory<br>-- Owen Petchey (Zurich)<br>-- Phil Warren (Sheffield)<br>Dr. Timothée Poisot (Montreal)<br><br>Algae Biotechnology<br>-- Dr. Jags Panhal<br><br>Parrot Conservation and Ecology<br>-- Dr. Jamie Gilardi (World Parrot Trust)<br>-- Dr. Sam Williams (ECHO/ARA)<br>-- Dr. Rowan Williams (WPT)<br>Climate Change and Glaciers<br>-- Dr. Sebastian Mernild<br><br>",
+          "caption4": "Daphnia - Genomics, Genetics and Life History Evolution<br>-- Tom Little (Edinburgh)<br>-- Alan Bergland (University of Virginia)<br>-- Matt Robinson (University of Lausanne)<br><br>Food Webs and Foraging Theory<br>-- Owen Petchey (Zurich)<br>-- Phil Warren (Sheffield)<br>-- Dr. Timothée Poisot (Montreal)<br><br>Algae Biotechnology<br>-- Dr. Jags Panhal<br><br>Parrot Conservation and Ecology<br>-- Dr. Jamie Gilardi (World Parrot Trust)<br>-- Dr. Sam Williams (ECHO/ARA)<br>-- Dr. Rowan Williams (WPT)<br><br>Climate Change and Glaciers<br>-- Dr. Sebastian Mernild<br>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media5": {
             "image": {
@@ -1598,7 +1625,7 @@
           "_anchor": "header3-1n"
         },
         {
-          "text": "<div><br></div><div>PhD</div><div>:: David Russo (PhD 2013-2016) [-&gt; Post Doc, Copenhagen]</div><div>:: Dr. Mohammad Ali (PhD 2010-2014) [-&gt; Kuwait Institute for Scientific Research]</div><div>:: Dr. Tim Farkas (PhD 2013-2015) [-&gt; PDRA at UCONN with Mark Urban]</div><div>:: Dr. Kylie Yarlett (PhD 2009 - 2013) [-&gt; Trainee Teacher]</div><div>:: Dr. Julia Reger (PhD 2008 - 2011) [-&gt; Greenpeace and Consultant Activist]</div><div>:: Dr. Aaron Theirry (PhD 2008 - 2012) [-&gt; Post-Doc, University of Edinburgh -&gt; Climate Change Modelling -&gt; Campaigns Manager TUoS Students Union)</div><div>:: Dr. Sam Williams (PhD 2006-2010) [-&gt; Echo Bonaire, Conservation NGO -&gt; Ara Project Cost Rica -&gt; WPT Caribbean/Central America Leader]</div><div>:: Dr. Rowan Marthin (PhD 2006-2010) [-&gt; Post Doc - Percy Fitzpatrick Institute, South Africa -&gt; WPT Africa Leader]</div><div>:: Dr. Edd Hammill (PhD 2003-2007) [-&gt; Post Doc - Anholt Lab - UVic -&gt; Srivastava lab UBC -&gt; Assistant Prof Utah State]&nbsp;</div><div><br></div><div>Post Doc</div><div>:: Dr. Dörthe Becker (Post Doc 2014-2016) [-&gt; Post Doc, UVa Bergland Lab, USA]</div><div>:: Dr. Martin Lind (Post-doc 2010-2012) [-&gt; Junior Group Leader, Uppsala University, Sweden]</div><div>:: Dr. Mauricio Carter (Post-doc 2009 - 2011) [-&gt; Post Doc Exeter - &gt; Assistant Prof, Univ. Chile]</div><div>:: Dr. Dirk Mikolajewski (Post-doc 2007-2011) [-&gt; Berlin - post doc]</div><div>:: Dr. Stuart Dennis (Post-doc 2007-2011) [-&gt; Panama; STRI -&gt; Post Doc - EAWAG]</div><div><br></div><div>Visiting PhD</div><div>:: Dr. Pablo Cortes, Universidad Austral, Chile (Visiting PhD; PDRA in Rimuski, CA).</div><div>:: Mauricio Carter (2008) Visiting PhD Fellow - Genetic Covariance in Daphnia - Univesity of Chile, Santiago</div><div><br></div><div>MBioSci/Technicians</div><div>:: Jason Griffiths (MBiolSci 2012) [Sheffield - PhD -&gt; Post Doc Utah State]</div><div>:: Farah al-Shorbaji (MBiolSci 2012) [Bournmouth - PhD -&gt; World Health Organisation]</div><div>:: Ben Ashton (MBiolSci 2011) [Destination: Kalahari]</div><div>:: Julie Truman (MBiolSci 2010) [Destination: Liverpool - PhD]</div><div>:: Will Hentley (Technician 2009-2010) [Destination: CEH Banchory - PhD-&gt;Post Doc - Sheffield]</div><div>:: Meghann Mears (UG 2004-2007) [Destination: Sheffield PhD]</div><div>:: Dr. Gwen Rodgers (MBiolSci 2006-2007) [Desitination: Leeds PhD; Leeds Post-doc]</div><div>:: Dr. Alice Rogers (Tech 2005-2006) [Destination: Imperial College London PhD -&gt; Brisbane, Australia - Post-doc -&gt; Lecturer, Wellington, NZ!]</div><div>:: Mike Morel (MBiolSci 2005-2006) [Cambridge Science Labs]</div><div>:: Aimee McTighe (Nuffield Bursary Student 2007) [4th Year MBiolSci, Sheffield]</div>",
+          "text": "<div><br></div><div>PhD</div><div>:: Nella Roccuzzo (2014 - 2017) [-&gt; Post Doc, Jan Evangelista Purkyně University]&nbsp;</div><div>:: David Russo (PhD 2013-2016) [-&gt; Post Doc, Copenhagen]</div><div>:: Dr. Mohammad Ali (PhD 2010-2014) [-&gt; Kuwait Institute for Scientific Research]</div><div>:: Dr. Tim Farkas (PhD 2013-2015) [-&gt; PDRA at UCONN with Mark Urban]</div><div>:: Dr. Kylie Yarlett (PhD 2009 - 2013) [-&gt; Trainee Teacher]</div><div>:: Dr. Julia Reger (PhD 2008 - 2011) [-&gt; Greenpeace and Consultant Activist]</div><div>:: Dr. Aaron Theirry (PhD 2008 - 2012) [-&gt; Post-Doc, University of Edinburgh -&gt; Climate Change Modelling -&gt; Campaigns Manager TUoS Students Union)</div><div>:: Dr. Sam Williams (PhD 2006-2010) [-&gt; Echo Bonaire, Conservation NGO -&gt; Ara Project Cost Rica -&gt; WPT Caribbean/Central America Leader]</div><div>:: Dr. Rowan Marthin (PhD 2006-2010) [-&gt; Post Doc - Percy Fitzpatrick Institute, South Africa -&gt; WPT Africa Leader]</div><div>:: Dr. Edd Hammill (PhD 2003-2007) [-&gt; Post Doc - Anholt Lab - UVic -&gt; Srivastava lab UBC -&gt; Assistant Prof Utah State]&nbsp;</div><div><br></div><div>Post Doc</div><div>:: Dr. Dörthe Becker (Post Doc 2014-2016) [-&gt; Post Doc, UVa Bergland Lab, USA]</div><div>:: Dr. Martin Lind (Post-doc 2010-2012) [-&gt; Junior Group Leader, Uppsala University, Sweden]</div><div>:: Dr. Mauricio Carter (Post-doc 2009 - 2011) [-&gt; Post Doc Exeter - &gt; Assistant Prof, Univ. Chile]</div><div>:: Dr. Dirk Mikolajewski (Post-doc 2007-2011) [-&gt; Berlin - post doc]</div><div>:: Dr. Stuart Dennis (Post-doc 2007-2011) [-&gt; Panama; STRI -&gt; Post Doc - EAWAG]</div><div><br></div><div>Visiting PhD</div><div>:: Dr. Pablo Cortes, Universidad Austral, Chile (Visiting PhD; PDRA in Rimuski, CA).</div><div>:: Mauricio Carter (2008) Visiting PhD Fellow - Genetic Covariance in Daphnia - Univesity of Chile, Santiago</div><div><br></div><div>MBioSci/MRes/Technicians</div><div>:: Richard Lloyd Mills (MRes 2017) [University of Greenwich - PhD]</div><div>:: Catriona Jones (MRes 2017) [Trent University (CA) - PhD]</div><div>:: Tom Clegg (MBiolSci 2017) [Imperial - PhD]</div><div>:: Jason Griffiths (MBiolSci 2012) [Sheffield - PhD -&gt; Post Doc Utah State]</div><div>:: Farah al-Shorbaji (MBiolSci 2012) [Bournmouth - PhD -&gt; World Health Organisation]</div><div>:: Ben Ashton (MBiolSci 2011) [Destination: Kalahari]</div><div>:: Julie Truman (MBiolSci 2010) [Destination: Liverpool - PhD]</div><div>:: Will Hentley (Technician 2009-2010) [Destination: CEH Banchory - PhD-&gt;Post Doc - Sheffield]</div><div>:: Meghann Mears (UG 2004-2007) [Destination: Sheffield PhD]</div><div>:: Dr. Gwen Rodgers (MBiolSci 2006-2007) [Desitination: Leeds PhD; Leeds Post-doc]</div><div>:: Dr. Alice Rogers (Tech 2005-2006) [Destination: Imperial College London PhD -&gt; Brisbane, Australia - Post-doc -&gt; Lecturer, Wellington, NZ!]</div><div>:: Mike Morel (MBiolSci 2005-2006) [Cambridge Science Labs]</div><div>:: Aimee McTighe (Nuffield Bursary Student 2007) [4th Year MBiolSci, Sheffield]</div>",
           "_tags": [
             "Theme"
           ],
@@ -1607,239 +1634,11 @@
         }
       ]
     },
-    "publications.html": {
-      "settings": {
-        "meta_descr": "Web Generator Description",
-        "title": "Publications from The Lab",
-        "order": 3
-      },
-      "components": [
-        {
-          "_inherit": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": false,
-            "showButtons": false,
-            "sticky": true,
-            "collapsed": false,
-            "transparent": false,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#efefef"
-          },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__hamburger": {
-              "color": "#efefef"
-            }
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PAPERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page6.html\">GITHUB</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/chaobjulia-130x128.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-o"
-        },
-        {
-          "_name": "footer1",
-          "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->  \n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked=\"\">\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\" selected=\"\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content text-white\">\n            <div class=\"col-12 col-md-3\">\n                <div class=\"media-wrap\">\n                    <a href=\"https://mobirise.com/\">\n                        <img src=\"../_images/logo2.png\" alt=\"Mobirise\">\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">Address</h5>\n                <p class=\"mbr-text\">1234 Street Name<br>City, AA 99999</p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">Contacts</h5>\n                <p class=\"mbr-text\">Email: support@mobirise.com<br>Phone: +1 (0) 000 0000 001<br>Fax: +1 (0) 000 0000 002</p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">Links</h5>\n                <p class=\"mbr-text\">\n                    <a class=\"text-primary\" href=\"https://mobirise.com/\">Website builder</a>\n                    <br><a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a>\n                    <br><a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a>\n                </p>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">© Copyright 2017 Mobirise - All Rights Reserved</p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>\n",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".content": {
-              "@media (max-width: 767px)": {
-                "text-align": "center",
-                "> div:not(:last-child)": {
-                  "margin-bottom": "2rem"
-                }
-              }
-            },
-            ".media-wrap": {
-              "@media (max-width: 767px)": {
-                "margin-bottom": "1rem"
-              },
-              ".mbr-iconfont-logo": {
-                "font-size": "7.5rem",
-                "color": "#f36"
-              },
-              "img": {
-                "height": "6rem"
-              }
-            },
-            ".footer-lower": {
-              ".copyright": {
-                "@media (max-width: 767px)": {
-                  "margin-bottom": "1rem",
-                  "text-align": "center"
-                }
-              },
-              "hr": {
-                "margin": "1rem 0",
-                "border-color": "#fff",
-                "opacity": ".05"
-              },
-              ".social-list": {
-                "padding-left": "0",
-                "margin-bottom": "0",
-                "list-style": "none",
-                "display": "flex",
-                "flex-wrap": "wrap",
-                "justify-content": "flex-end",
-                "-webkit-justify-content": "flex-end",
-                ".mbr-iconfont-social": {
-                  "font-size": "1.3rem",
-                  "color": "#fff"
-                },
-                ".soc-item": {
-                  "margin": "0 .5rem"
-                },
-                "a": {
-                  "margin": "0",
-                  "opacity": ".5",
-                  "-webkit-transition": ".2s linear",
-                  "transition": ".2s linear",
-                  "&:hover": {
-                    "opacity": "1"
-                  }
-                },
-                "@media (max-width: 767px)": {
-                  "justify-content": "center",
-                  "-webkit-justify-content": "center"
-                }
-              }
-            }
-          },
-          "_cid": "qEDQUCHqgA",
-          "_protectedParams": [],
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#444444",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "_anchor": "footer1-p"
-        },
-        {
-          "_inherit": "msg-box5",
-          "_params": {
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
-            "imageSize": "33",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#efefef",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2017-12-23-at-14.53.40-1058x1148.png",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "Publications",
-          "text": "<p>The Beckerman Lab produces research on phenotypic plasticity, food webs and conservation.</p><p>Below are a list of Key Publications by Subjects, including work on Plasticity, Food Webs, Conservation.</p><p><b><a href=\"https://scholar.google.co.uk/citations?user=I741OU4AAAAJ&amp;hl=en&amp;oi=ao\" target=\"_blank\">Google Scholar Link</a></b></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".mbr-header__text": {
-              "color": "#ffffff"
-            },
-            ".mbr-header__subtext": {
-              "color": "#ffffff"
-            },
-            ".mbr-article": {
-              "color": "#ffffff"
-            }
-          },
-          "headerAlign": "left",
-          "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a> ",
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-1f"
-        },
-        {
-          "text": "<p><b>Key Publications By Subject Groupings</b></p><p><u><i>Predation &amp; Multivariate Plasticity (Daphnia and Grasshoppers)</i></u></p><p>Reger, J. Lind, MI, Robinson*, M. Beckerman*, AP 2017 Predation drives local adaptation of phenotypic plasticity Nature Ecology and Evolution (in press) [*equal contribution]</p><p>Carter, MJ, Lind, MI, Hentley, W. Dennis, SR, Beckerman, AP 2017 Evolution of a predator-induced, non-linear reaction norm Proceedings of the Royal Society 284 20170859 DOI:&nbsp;10.1098/rspb.2017.0859</p><p>Lind, M. I., K. Yarlett, J. Reger, M. J. Carter, and A. P. Beckerman. 2015. The alignment between phenotypic plasticity, the major axis of genetic variation and the response to selection. Proceedings of the Royal Society 282: 20151651. http://dx.doi.org/10.1098/rspb.2015.1651</p><p>Cambronero, MC, Marshall, H., De Meester, L., Davidson, AT, Beckerman*, AP, Orsini*, L 2016 Forecasting species persistence to future global change by learning from past evolutionary dynamics Journal of Animal Ecology (in revision) [*equal contribution]</p><p>Robinson, M. R., and A. P. Beckerman. 2013. Quantifying multivariate plasticity: genetic variation in resource acquisition drives plasticity in resource allocation to components of life history. Ecology Letters:281-290.</p><p>Dennis, S. D., G. A. LeBlanc, and A. P. Beckerman. 2014. Endocrine regulation of predator-induced phenotypic plasticity. Oecologia 176:625–635.</p><p>Beckerman, A. P., J. de Roij, S. R. Dennis, and T. J. Little. 2013. A shared mechanism of defense against predators and parasites: chitin regulation and its implications for life-history theory. Ecology and Evolution 3:5119-5126.</p><p>Mikolajewski, D. J., B. Wohlfahrt, G. Joop, and A. P. Beckerman. 2013. Sexual size dimorphism and the integration of phenotypically plastic traits. Ecological Entomology 38:418-428.</p><p>Dennis, S. R., M. J. Carter, W. T. Hentley, and A. P. Beckerman. (2011). Phenotypic convergence along a gradient of predation risk. Proceedings of the Royal Society B-Biological Sciences 278:1687-1969.</p><p>Hammill, E., P. Kratina, A. P. Beckerman, and B. R. Anholt. (2010). Precise time interactions between behavioural and morphological defences. Oikos 119:494-499.</p><p>Hammill, E., and A. P. Beckerman. (2010). Reciprocity in predator-prey interactions: exposure to defended prey and predation risk affects intermediate predator life history and morphology. Oecologia 163:193-202.</p><p>Beckerman, A. P., G. M. Rodgers, and S. R. Dennis. (2010). The reaction norm of size and age at maturity under multiple predator risk. Journal of Animal Ecology 79:1069-1076.</p><p>Mikolajewski, D. J., M. De Block, J. Rolff, F. Johansson, A. P. Beckerman, and R. Stoks. (2010). Predator-driven trait diversification in a dragonfly genus: covariation in behavioral and morphological antipredator defense. Evolution; international journal of organic evolution 64:3327-3325.&nbsp;</p><p>Barton, B. T., A. P. Beckerman, and O. J. Schmitz. (2009). Climate warming strengthens indirect interactions in an old-field food web. Ecology 90:2346-2351.</p><p>Hammill, E., A. Rogers, and A. P. Beckerman. (2008). Costs, benefits and the evolution of inducible defences: a case study with Daphnia pulex. Journal of Evolutionary Biology 21:705-715.</p><p>Beckerman, A. P., K. Wieski, and D. J. Baird. (2007). Behavioural versus physiological mediation of life history under predation risk. Oecologia 152:335-343.</p><p>Beckerman, A. P. (2005). The shape of things eaten: the functional response of herbivores foraging adaptively. Oikos 110:591-601.</p><p>Schmitz, O. J., P. A. Hamback, and A. P. Beckerman. (2000). Trophic cascades in terrestrial systems: A review of the effects of carnivore removals on plants. American Naturalist 155:141-153.</p><p>Beckerman, A. P., M. Uriarte, and O. J. Schmitz. (1997). Experimental evidence for a behavior-mediated trophic cascade in a terrestrial food&nbsp;chain. Proceedings of the National Academy of Sciences of the United States of America 94:10735-10738.</p><p>Schmitz, O. J., A. P. Beckerman, and K. M. O'Brien. (1997). Behaviorally mediated trophic cascades: Effects of predation risk on food web interactions. Ecology 78:1388-1399.</p><p>Schmitz, O. J., J. L. Cohon, K. D. Rothley, and A. P. Beckerman. (1998). Reconciling variability and optimal behaviour using multiple criteria in optimization models. Evolutionary Ecology 12:73-94.</p><p><br></p><p><u><i>Algae, Phenotypic Plasticity &amp; Synthetic Biology</i></u></p><p>Russo, D., Beckerman, A.P., Pandhal. J. 2017 Competitive growth experiments with a high-lipid Chlamydomonas reinhardtii mutant strain and its wild-type to predict industrial and ecological risks. AMB Express (Applied and Industrial Biotechnology) 7:10 DOI: 10.1186/s13568-016-0305-x</p><p>Roccuzzo, S., Beckerman, A.P. and Pandhal, J. 2016. The use of natural infochemicals for sustainable and efficient harvesting of microalgae for biotechnology: insights from a meta-analysis. Biotechnology Letters 38(12): 1983–1990 doi:&nbsp; 10.1007/s10529-016-2192-2</p><p>Russo, D. Beckerman, AP, Couto, N., Pandhal,J.  2016. A metaproteomic analysis of the response of a freshwater microbial community under nutrient enrichment. Frontiers in Microbiology 7 1172 (doi:&nbsp; 10.3389/fmicb.2016.01172)</p><p><br></p><p><u><i>Food Webs</i></u></p><p>Thierry, A., O. L. Petchey, A. P. Beckerman, P. H. Warren, and R. J. Williams. (2011). The consequences of size dependent foraging for food web topology. Oikos 120:493-502.</p><p>Thierry, A., A. P. Beckerman, P. H. Warren, R. J. Williams, A. J. Cole, and O. L. Petchey. (2011). Adaptive foraging and the rewiring of size-structured food webs following extinctions. Basic and Applied Ecology 12:562-570.</p><p>Petchey, O. L., A. P. Beckerman, J. O. Riede, and P. H. Warren. (2011). Fit, efficiency, and biology: some thoughts on judging food web models. Journal of Theoretical Biology 279:169-171.</p><p>Petchey, O. L., A. P. Beckerman, J. O. Riede, and P. H. Warren. (2008). Size, foraging, and food web structure. Proceedings of the National Academy of Sciences 105:4191-4196.</p><p>Beckerman, A. P., O. L. Petchey, and P. J. Morin. (2010). Adaptive foragers and community ecology: linking individuals to communities and ecosystems. Functional Ecology 24:1-6.</p><p>Beckerman, A. P., O. L. Petchey, and P. H. Warren. (2006). Foraging biology predicts food web complexity. Proceedings of the National Academy of Sciences of the United States of America 103:13745-13749.</p><p>Beckerman, A. P., and O. L. Petchey. (2009). Infectious food webs. Journal of Animal Ecology 78:493-496.</p><p>Schmitz, O. J., A. P. Beckerman, and S. Litman. (1997). Functional responses of adaptive consumers and community stability with emphasis on the dynamics of plant-herbivore systems. Evolutionary Ecology 11:773-784.</p><p><br></p><p><u><i>Population Dynamics, Cycling &amp; Synchrony</i></u></p><p>Beckerman, A. P., T. G. Benton, C. T. Lapsley, and N. Koesters. (2006). How effective are maternal effects at having effects? Proceedings of the Royal Society B-Biological Sciences 273:485-493.</p><p>Plaistow, S. J., C. T. Lapsley, A. P. Beckerman, and T. G. Benton. (2004). Age and size at maturity: sex, environmental variability and developmental thresholds. Proceedings of the Royal Society of London, Series B. 271:919-924.</p><p>Beckerman, A. P., T. G. Benton, C. T. Lapsley, and N. Koesters. (2003). Talkin' 'bout my generation: Environmental variability and cohort effects. American Naturalist 162:754-767.</p><p>Benton, T. G., C. T. Lapsley, and A. P. Beckerman. (2002). The population response to environmental noise: population size, variance and correlation in an experimental system. Journal of Animal Ecology 71:320-322.</p><p>Beckerman, A. P., T. G. Benton, E. Ranta, V. Kaitala, and P. Lundberg. (2002). Population dynamic consequences of delayed life-history effects. Trends in Ecology &amp; Evolution 17:263-269.</p><p>Benton, T. G., S. J. Plaistow, A. P. Beckerman, C. T. Lapsley, and S. Littlejohns. (2005). Changes in maternal investment in eggs can affect population dynamics. Proceedings of the Royal Society of London (Series B) - Biology 272:1351-1356.</p><p>Benton, T. G., E. Ranta, V. Kaitala, and A. P. Beckerman. (2001). Maternal effects and the stability of population dynamics in noisy environments. Journal of Animal Ecology 70:590-599.</p><p>Benton, T. G., C. T. Lapsley, and A. P. Beckerman. (2001). Population synchrony and environmental variation: an experimental demonstration. Ecology Letters 4:236-243.</p><p><br></p><p><u><i>Conservation</i></u></p><p>Roberts M.H., Martin R.O., Beckerman A.P. &amp; Williams S.R. 2014. Occupation rates of artificial and restored natural nest cavities by yellow-shouldered Amazons Amazona barbadensis on Bonaire, Caribbean Netherlands. Conservation Evidence, 11, 39-42.&nbsp;</p><p>Beckerman, A. P., M. Boots, and K. J. Gaston. (2007). Urban bird declines and the fear of cats. Animal Conservation 10:320-325.</p><p>Graham, K., A. P. Beckerman, and S. Thirgood. (2005). Human-predator-prey conflicts: ecological correlates, prey losses and patterns of management. Biological Conservation 122:159-171.</p><p>Votier, S. C., B. J. Hatchwell, A. Beckerman, R. H. McCleery, F. M. Hunter, J. Pellatt, M. Trinder, and T. R. Birkhead. (2005). Oil pollution and climate have wide-scale impacts on seabird demographics. Ecology Letters 8:1157-1164.</p><p>Petchey, O. L., M. Pontarp, T. M. Massie, S. Kéfi, A. Ozgul, M. Weilenmann, G. M. Palamara, F. Altermatt, B. Matthews, J. M. Levine, D. Z. Childs, B. J. McGill, M. E. Schaepman, P. Spaak, A. P. Beckerman, F. Pennekamp, and I. S. Pearse. 2015. The Ecological Forecast Horizon, and examples of its uses and determinants. Ecology Letters 18: 597–611 DOI:&nbsp;10.1111/ele.12443</p><p><br></p><p><u><i>Competition</i></u></p><p>Beckerman, A. P. (2002). The distribution of Melanoplus femurrubrum: fear and freezing in Connecticut. Oikos 99:131-140.</p><p>Beckerman, A. P. (2000). Counterintuitive outcomes of interspecific competition between two grasshopper species along a resource gradient. Ecology 81:948-957.</p><p>Beckerman, A. P. 1999. The distribution of the red legged grasshopper, Melanoplus femurrubrum, among old fields: resolving a counterintuitive pattern. Yale University, New Haven, CT.</p><p>Scholes, L., P. H. Warren, and A. P. Beckerman. (2005). The combined effects of energy and disturbance on species richness in protist microcosms. Ecology Letters 8:730-738.</p><p>Hamback, P. A., and A. P. Beckerman. (2003). Herbivory and plant resource competition: a review of two interacting interactions. Oikos 101:26-37.</p><p>Thompson, K., O. L. Petchey, A. P. Askew, N. P. Dunnett, A. P. Beckerman, and A. J. Willis. (2010). Little evidence for limiting similarity in a long-term study of a roadside plant community. Journal of Ecology 98:480-487.</p><p><br></p><p><u><i>Adaptation</i></u></p><p>Orsini, L … Beckerman, AP…Frilander. M. (14 authors) 2016. Daphnia magna transcriptome by RNA-Seq across 12 environmental stressors.  Scientific Data doi:10.1038/sdata.2016.30.</p><p>Beckerman, AP, Childs, DZ, Bergland, AO 2016. Eco-evolutionary Biology: Feeding and Feedback Loops (Invited Dispatch). Current Biology 26 (4), R161–R164 http://dx.doi.org/10.1016/j.cub.2016.01.013</p><p>Farkas, TE, Hendry A, Nosil, P and Beckerman AP. 2015. How maladaptation can structure biodiversity: eco-evolutionary island biogeography. Trends in Ecology and Evolution 30(3) 154-160 DOI: http://dx.doi.org/10.1016/j.tree.2015.01.002</p><p>Chevin, L. M., and A. P. Beckerman. 2012. From adaptation to molecular evolution. Heredity 108:457-459.</p><p>Stapley, J., J. Reger, P. G. D. Feulner, C. Smadja, J. Galindo, R. Ekblom, C. Bennison, A. D. Ball, A. P. Beckerman, and J. Slate. (2010). Adaptation genomics: the next generation. Trends in Ecology &amp; Evolution 25:705-712.</p><p><br></p><p><u><i>Helping People with Statistics (Mixed Effects to EOFs, Flies, Birds and Glaciers)</i></u></p><p>Mernild SH, Liston, GE, Hiemstra, C, Beckerman AP, Yde JC, McPhee, J. 2016 The Andes Cordillera. Part IV: Spatiotemporal freshwater runoff distribution to adjacent seas (1979–2014) International Journal of Climatology DOI: 10.1002/joc.4922</p><p>Mernild SH, Beckerman AP, Yde JC, Hanna E, Malmros JK, Wilson R, Zemp M. 2015. Mass loss and imbalance of glaciers along the Andes Cordillera to the sub-Antarctic islands Global and Planetary Change 133:109-119.</p><p>Mernild, S. H., E. Hanna, J. R. McConnell, M. Sigl, A. P. Beckerman, J. C. Yde, J. Cappelen, J. K. Malmros, and K. Steffen. 2015. Greenland precipitation trends in a long-term instrumental climate context (1890–2012): evaluation of coastal and ice core records. International Journal of Climatology:35:303–320</p><p>Hatchwell, B. J., S. P. Sharp, A. P. Beckerman, and J. Meade. 2013. Ecological and demographic correlates of helping behaviour in a cooperatively breeding bird. The Journal of animal ecology.</p><p>Beckerman, A. P., S. P. Sharp, and B. J. Hatchwell. (2011). Predation and kin-structured populations: an empirical perspective on the evolution of cooperation. Behavioral Ecology 22:1294-1303.</p><p>Meade, J., K.-B. Nam, A. P. Beckerman, and B. J. Hatchwell. (2010). Consequences of 'load-lightening' for future indirect fitness gains by helpers in a cooperatively breeding bird. Journal of Animal Ecology 79:529-537.</p><p>Evison, S. E. F., O. L. Petchey, A. P. Beckerman, and F. L. W. Ratnieks. (2008). Combined use of pheromone trails and visual landmarks by the common garden ant Lasius niger. Behavioral Ecology and Sociobiology 63:261-267.</p><p>Hentley, WT., Vanbergen AJ, Beckerman, AP, Brien MN, Hails, RS, Jones, TH &amp; Johnson, SN. 2015. Antagonistic interactions between an invasive and native coccinellid species may promote coexistence, Journal of Animal Ecology DOI: 10.1111/1365-2656.12519 (p 1087-1097)</p><p>Cameron, T. C., D. Metcalfe, A. P. Beckerman, and S. M. Sait. (2007). Intraspecific competition: The role of lags between attack and death in host-parasitoid interactions. Ecology 88:1225-1231.</p><p>Bacigalupe, L. D., K. Barrientos, A. P. Beckerman, M. J. Carter, C. C. Figueroa, S. P. Foster, A. J. Moore, A. X. Silva, and R. F. Nespolo. 2013. Can invasions occur without change? A comparison of G-matrices and selection in the peach-potato aphid, Myzus persicae. Ecology and Evolution 3:5109-5118.</p><p>Barria, A., M. Lardies, A. Beckerman, and L. Bacigalupe. 2014. Latitude or biogeographic breaks? Determinants of phenotypic (co)variation in fitness-related traits in Betaeus truncatus along the Chilean coast. Marine Biology:1-8.</p><p>Cuddington, H, A.P. Beckerman, R.R. Snook. 2005. Experimental removal and elevation of sexual selection: Does sexual selection generate manipulative males and resistant females? American Naturalist 165: S72-S87.</p><p>Beckerman, AP. 2014. What can modern statistical tools do for limnology? Journal of Limnology 73 (s1).</p><p><br></p><p><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-1j"
-        }
-      ]
-    },
     "contact.html": {
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "CONTACT",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -1851,8 +1650,8 @@
             "sticky": true,
             "collapsed": false,
             "transparent": false,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#efefef"
+            "color": "#c1c1c1",
+            "hamburgerColor": "#ffffff"
           },
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "_tags": [
@@ -1872,7 +1671,7 @@
               "color": "#ffffff"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PAPERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page6.html\">GITHUB</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page6.html\">GITHUB</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -2032,7 +1831,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "R4All",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -2044,8 +1843,8 @@
             "sticky": true,
             "collapsed": false,
             "transparent": false,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#efefef"
+            "color": "#c1c1c1",
+            "hamburgerColor": "#ffffff"
           },
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "_tags": [
@@ -2065,7 +1864,7 @@
               "color": "#efefef"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PAPERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page6.html\">GITHUB</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page6.html\">GITHUB</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -2193,7 +1992,7 @@
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#553982",
+            "bgColor": "#27aae0",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -2252,7 +2051,7 @@
       "settings": {
         "meta_descr": "Web Page Generator Description",
         "title": "GitHub",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -2264,8 +2063,8 @@
             "sticky": true,
             "collapsed": false,
             "transparent": false,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#efefef"
+            "color": "#c1c1c1",
+            "hamburgerColor": "#ffffff"
           },
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "_tags": [
@@ -2282,10 +2081,10 @@
               "background": "#2c2c2c"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#efefef"
+              "color": "#f7da64"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"publications.html\">PAPERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page6.html\">GITHUB</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"research.html\">RESEARCH</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"people.html\">PEOPLE</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"r4all.html\"><p>R4ALL</p></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page6.html\">GITHUB</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -2377,7 +2176,7 @@
             }
           },
           "text1": "<strong>ADDRESS</strong><br>Dr. Andrew Beckerman<br>Department of Animal &amp; Plant Sciences, University of Sheffield, Western Bank, Sheffield S10 2TN, UK",
-          "text2": "DISCOGRAPHY<br>Updated 24.12.27<br>A Deviation from Walking Dandruff Productions<br><img src=\"http://counter.digits.net/wc/-d/4/beckslab\" align=\"middle\" width=\"40\" height=\"10\" border=\"0\" hspace=\"4\" vspace=\"2\"><br><font size=\"1\"><i>Counter Courtesy of <a href=\"http://www.digits.net\">Web Counters</a></i></font><br>",
+          "text2": "DISCOGRAPHY<br>Updated 14.7.18<br>A Deviation from Walking Dandruff Productions<br><img src=\"http://counter.digits.net/wc/-d/4/beckslab\" align=\"middle\" width=\"40\" height=\"10\" border=\"0\" hspace=\"4\" vspace=\"2\"><br><font size=\"1\"><i>Counter Courtesy of <a href=\"http://www.digits.net\">Web Counters</a></i></font><br>",
           "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://twitter.com/search?q=beckerhopper\" target=\"_blank\">TWITTER</a></li></ul>",
           "_tags": [
             "Theme"
