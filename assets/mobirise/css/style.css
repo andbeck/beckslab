@@ -279,7 +279,7 @@ html {
 }
 .mbr-navbar--freeze.mbr-navbar--collapsed.mbr-navbar--open .mbr-navbar__hamburger,
 .mbr-navbar--freeze.mbr-navbar--collapsed.mbr-navbar--open .mbr-navbar__hamburger:hover {
-  color: #fff !important;
+  color: #ffffff !important;
 }
 .mbr-navbar--sticky .mbr-navbar__section {
   position: fixed;
