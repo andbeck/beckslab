@@ -403,9 +403,8 @@ nav.opened .hamburger span {
 .navbar-collapse {
   flex-basis: auto;
 }
-.nav-link:hover, .dropdown-item:hover, .icons-menu .mbr-iconfont:hover {
-/*color: @itemsHoverColor;*/
-  color: #f3f3f3; /*whatever your color is*/
+.nav-link:hover, .dropdown-item:hover {
+  color: @itemsHoverColor !important;
 }
 }
 
