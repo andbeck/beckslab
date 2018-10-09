@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Beckslab",
-    "currentPage": "people.html",
+    "currentPage": "index.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 102,
     "versionPublish": "4.8.1",
@@ -82,7 +82,7 @@
             }
           },
           "title": "Beckerman Lab<br>Department of Animal &amp; Plant Sciences, University of Sheffield",
-          "text": "<p>We work on the ecology and evolution of phenotypic plasticity, the role of foraging behaviour in the structure and complexity of food webs and parrot conservation. We use Daphnia, Algae, Computers and Parrots in our work.  Below you can find links to our research.&nbsp;</p><p><a href=\"https://scholar.google.com/citations?user=I741OU4AAAAJ&amp;hl=en\" target=\"_blank\">GOOGLE SCHOLAR LINK</a></p><p><a href=\"index.html#header3-2f\">LAB NEWS</a></p>",
+          "text": "<p>We work on the ecology and evolution of phenotypic plasticity, the role of foraging behaviour in the structure and complexity of food webs and parrot conservation. We use Daphnia, Algae, Computers and Parrots in our work.  Below you can find links to our research.&nbsp;</p><p><a href=\"https://scholar.google.com/citations?user=I741OU4AAAAJ&amp;hl=en\" target=\"_blank\">GOOGLE SCHOLAR LINK</a></p><p><a href=\"index.html#header3-2f\">LAB NEWS</a></p><p><a href=\"work_with_us.html\">WE ARE HIRING</a></p>",
           "_tags": [
             "Theme"
           ],
@@ -2290,7 +2290,7 @@
             "showTitle": true,
             "showMeta": false,
             "showText": true,
-            "showButtons": true,
+            "showButtons": false,
             "inverse": false,
             "imageSize": "30",
             "paddingTop": "2",
@@ -2331,7 +2331,7 @@
             }
           },
           "title": "We are hiring",
-          "text": "<p>Funded by NERC - UK, we are looking for a highly motivated Post-doctoral researcher and technician for a project called ‘<i>Towards a general theory of ecological impacts of multiple, simultaneous stressors</i>.’ &nbsp;You will model food webs, explore climate change and extinction dynamics and apply findings to marine systems.</p>",
+          "text": "<p>Funded by NERC - UK, we are looking for a highly motivated Post Doctoral Researcher and technician for a project called ‘<i>Towards a general theory of ecological impacts of multiple, simultaneous stressors</i>.’ &nbsp;You will model food webs, explore climate change and extinction dynamics and apply findings to marine systems.</p><p><a href=\"https://www.jobs.ac.uk/job/BNH728/research-associate\" target=\"_blank\">POST DOCTORAL RESEARCH POST</a></p><p><a href=\"https://www.jobs.ac.uk/job/BNI240/research-technician\" target=\"_blank\">TECHNICIAN POST</a></p>",
           "_tags": [
             "Theme"
           ],
