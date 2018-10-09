@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Beckslab",
-    "currentPage": "index.html",
+    "currentPage": "people.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 102,
     "versionPublish": "4.8.1",
@@ -1254,10 +1254,10 @@
               "font-size": "16px"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#c1c1c1"
+              "background": "#2c2c2c"
             },
             ".mbr-navbar__section": {
-              "background": "#c1c1c1"
+              "background": "#2c2c2c"
             },
             ".mbr-navbar__hamburger": {
               "color": "#ffffff"
@@ -1564,7 +1564,7 @@
             }
           },
           "title4": "Collaborators",
-          "caption4": "Daphnia - Genomics, Genetics and Life History Evolution<br>-- Tom Little (Edinburgh)<br>-- Alan Bergland (University of Virginia)<br>-- Matt Robinson (University of Lausanne)<br><br>Food Webs and Foraging Theory<br>-- Owen Petchey (Zurich)<br>-- Phil Warren (Sheffield)<br>-- Dr. Timothée Poisot (Montreal)<br><br>Algae Biotechnology<br>-- Dr. Jags Panhal<br><br>Parrot Conservation and Ecology<br>-- Dr. Jamie Gilardi (World Parrot Trust)<br>-- Dr. Sam Williams (ECHO/ARA)<br>-- Dr. Rowan Williams (WPT)<br><br>Climate Change and Glaciers<br>-- Dr. Sebastian Mernild<br>",
+          "caption4": "Food Webs and Foraging Theory<br>-- Owen Petchey<br>-- Dr. Timothée Poisot&nbsp;<br>-- Dr. Ute Jacob<br>-- Dr. Julia Blanchard<br>-- Phil Warren (Sheffield)<br><br>Daphnia - Genomics, Genetics and Life History Evolution<br>-- Tom Little (Edinburgh)<br>-- Alan Bergland (University of Virginia)<br>-- Matt Robinson (University of Lausanne)<br><br>Algae Biotechnology<br>-- Dr. Jags Panhal<br><br>Parrot Conservation and Ecology<br>-- Dr. Jamie Gilardi (World Parrot Trust)<br>-- Dr. Sam Williams (ECHO/ARA)<br>-- Dr. Rowan Williams (WPT)<br><br>Climate Change and Glaciers<br>-- Dr. Sebastian Mernild<br>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media5": {
             "image": {
