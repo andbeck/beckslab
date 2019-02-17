@@ -515,7 +515,7 @@
             "showCaptions": true,
             "showButtons": true,
             "paddingTop": "2",
-            "paddingBottom": "1",
+            "paddingBottom": "2",
             "columns": 4,
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
@@ -577,7 +577,7 @@
             }
           },
           "title2": "Food Webs",
-          "caption2": "We explore the structure, complexity and dynamics of food webs. We use optimal foraging theory to define the rules linking predators and prey. This is network biology.<br>-<br>-<br><br>",
+          "caption2": "We explore the structure, complexity and dynamics of food webs. We use optimal foraging theory to define the rules linking predators and prey. This is network biology.<br>-<br>-<br>-",
           "button2": "<a data-app-btn=\"true\" href=\"research.html#content5-1c\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
           "media3": {
             "image": {
@@ -600,7 +600,7 @@
             }
           },
           "title3": "Parrots &amp; Conservation",
-          "caption3": "We study the demography of parrots. We link this to socioeconomic constraints and trade-offs in conservation management. We build models.<br>-<br>-<br><br>",
+          "caption3": "We study the demography of parrots. We link this to socioeconomic constraints and trade-offs in conservation management. We build models.<br>-<br>-<br>-",
           "button3": "<a data-app-btn=\"true\" href=\"research.html#content5-1d\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
           "media4": {
             "image": {
@@ -623,7 +623,7 @@
             }
           },
           "title4": "R4All",
-          "caption4": "We work with R. Owen Petchey and Dylan Childs, my colleagues, and I write books and teach courses about using R. R is good.<br>-<br>-<br>-<br>-<br>",
+          "caption4": "We work with R. Owen Petchey and Dylan Childs, my colleagues, and I write books and teach courses about using R. R is good.<br>-<br>-<br>-<br>-<br>-",
           "button4": "<a data-app-btn=\"true\" href=\"R4All.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
           "media5": {
             "image": {
@@ -689,7 +689,7 @@
           "_anchor": "header3-2f"
         },
         {
-          "text": "<p>• Dörrthe Becker winds prestigous Marie Curie IRF to join the lab again working on Daphnia evolutionary biology and asexuality.</p><p>• Shlair Sadeq successfully defended her PhD on metal mixtures and predation in daphnia on Tuesday the 12 Feb 2019.</p><p>•<a href=\"https://www.bennosimmons.com\">Benno Simmons</a> is set to join the lab on the NERC grant: \"Towards a general theory of ecological impacts of multiple, simultaneous stressors. (Food Webs!).</p><p>• Penelope Blythe joins the lab as an RA on the NERC grant:  \"Towards a general theory of ecological impacts of multiple, simultaneous stressors. (Food Webs!).</p><p>• August 2018 - Ecology (ESA) paper accepted by Tom Clegg (MBiolSci) and Mohammad Ali (PhD): \"The Impact of Intraspecific Variation on Food Web Structure\"</p><p><br></p>",
+          "text": "<p>• Dörrthe Becker winds prestigous Marie Curie IRF to join the lab again working on Daphnia evolutionary biology and asexuality.</p><p>• Shlair Sadeq successfully defended her PhD on metal mixtures and predation in daphnia on Tuesday the 12 Feb 2019.</p><p>•<a href=\"https://www.bennosimmons.com\">Benno Simmons</a> is set to join the lab as PDRA on the NERC grant: \"Towards a general theory of ecological impacts of multiple, simultaneous stressors. (Food Webs!).</p><p>• Penelope Blythe joins the lab as an RA on the NERC grant:  \"Towards a general theory of ecological impacts of multiple, simultaneous stressors. (Food Webs!).</p><p>• August 2018 - Ecology (ESA) paper accepted by Tom Clegg (MBiolSci) and Mohammad Ali (PhD): \"The Impact of Intraspecific Variation on Food Web Structure\"</p><p><br></p>",
           "_tags": [
             "Theme"
           ],
