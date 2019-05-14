@@ -510,7 +510,7 @@ padding-bottom: (@paddingBottom * 15px);
   background: #7c706b;
 }
 .mbr-navbar__hamburger {
-  color: #ffffff;
+  color: #efefef;
 }
 }
 @isPublish: true;
@@ -671,7 +671,7 @@ padding-bottom: (@paddingBottom * 15px);
   background: #7c706b;
 }
 .mbr-navbar__hamburger {
-  color: #ffffff;
+  color: #efefef;
 }
 }
 
